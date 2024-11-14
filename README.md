@@ -62,7 +62,7 @@ Learn Go and HTMX by building a simple chatting application.
 // - Getting form values with `http.Request.FormValue`
 //
 // HTMX Concepts:
-// - GET/POST Methods
+// - Methods
 // - Inner/Outer Swapping
 // - Starting to think of HTML as "components"
 
@@ -70,16 +70,29 @@ Learn Go and HTMX by building a simple chatting application.
 // Tasks:
 // - [ ] 1. Display name (form) input and "Enter chat" button
 // - [ ] 2. Print name sent from client on server
-// - [ ] 3. Replace welcome message with client name using HTMX
+// - [ ] 3. Replace welcome message with greeting to client using HTMX
 // - [ ] 4. Return "chatroom page" from server
+
+// 1. Work done in `index.html`
 
 // 2. Define `PrintNameHandler` function.
 
-// 3. Define `SendClientNameHandler` function.
+// 3. Define `GreetClientHandler` function.
 
 // 4. Define `ReturnChatroomPage` function.
 ```
 
 ## 04 - Go Templates
 ```go
+////////////////////////////////////////////
+// Go Concepts:
+// - Go templates
+// - Error handling
+
+////////////////////////////////////////////
+// Tasks:
+// - [ ] 1. Break "welcome page" and "chatroom page" into separate templates.
+// - [ ] 2. Conditionally render "welcome page" and "chatroom page".
+// - [ ] 3. Greet user in chatroom page by passing name as parameter into template.
+
 ```
